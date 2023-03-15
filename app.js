@@ -18,7 +18,7 @@ console.log('hey');
 //     let guy: Boolean = true;
 //     console.log(guy)
 // }
-// test();
+// test();;
 console.log("this works");
 // run npm i --save-dev lite-server then add start indie the package-lock
 // run npm init
@@ -67,15 +67,17 @@ var notebook = {
 //hover over person to see the data format 
 //objects are used when you want to pair data values to one type. its like a key, similar to an array
 //nested objects 
-// const product: {
-//         id: string;
-//         price: number;
-//         tags: string[];
-//         details: {
-//             title: string;
-//             description: string;
-//         }
-// } = {
+var product = {
+    id: 'abc1',
+    price: 12.99,
+    tags: ['great-offer', 'hot-and-new'],
+    details: {
+        title: 'Red Carpet',
+        description: 'A great carpet - almost brand-neww!'
+    }
+};
+//we will use this 
+// const product = {
 //     id: 'abc1',
 //     price: 12.99,
 //     tags: ['great-offer', 'hot-and-new'],
@@ -84,16 +86,6 @@ var notebook = {
 //         description: 'A great carpet - almost brand-new!'
 //     }
 // }
-//we will use this 
-var product = {
-    id: 'abc1',
-    price: 12.99,
-    tags: ['great-offer', 'hot-and-new'],
-    details: {
-        title: 'Red Carpet',
-        description: 'A great carpet - almost brand-new!'
-    }
-};
 //nested objects are more descriptive and you are able to put more data if needed 
 //arrays 
 //define variable first 

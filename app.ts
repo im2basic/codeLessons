@@ -17,7 +17,7 @@ console.log('hey')
 // x--;
 // x+= 5;
 
-// console.log("x =",x);
+// console.log("x =",x);;
 
 
 // function test(){
@@ -105,7 +105,7 @@ const product: {
     tags: ['great-offer', 'hot-and-new'],
     details: {
         title: 'Red Carpet',
-        description: 'A great carpet - almost brand-new!'
+        description: 'A great carpet - almost brand-neww!'
     }
 }
 
